@@ -13,7 +13,8 @@
         "dev": "nuxt",
         "build": "nuxt build",
         "start": "nuxt start",
-        "generate": "nuxt generate"
+        "generate": "nuxt generate",
+        "deploy": "push-dir --dir=dist --branch=gh-pages --cleanup"
     },
     "keywords": [],
     "author": "",
@@ -24,6 +25,7 @@
     "devDependencies": {
         "less": "^3.0.1",
         "less-loader": "^4.1.0",
-        "lru-cache": "^4.1.2"
+        "lru-cache": "^4.1.2",
+        "push-dir": "^0.4.1"
     }
 }
