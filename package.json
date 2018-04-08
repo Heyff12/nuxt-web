@@ -1,0 +1,29 @@
+{
+    "name": "web-self",
+    "version": "1.0.0",
+    "description": "",
+    "main": "index.js",
+    "config": {
+        "nuxt": {
+            "host": "localhost",
+            "port": "3333"
+        }
+    },
+    "scripts": {
+        "dev": "nuxt",
+        "build": "nuxt build",
+        "start": "nuxt start",
+        "generate": "nuxt generate"
+    },
+    "keywords": [],
+    "author": "",
+    "license": "ISC",
+    "dependencies": {
+        "nuxt": "^1.4.0"
+    },
+    "devDependencies": {
+        "less": "^3.0.1",
+        "less-loader": "^4.1.0",
+        "lru-cache": "^4.1.2"
+    }
+}
